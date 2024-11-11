@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Flow Optimization</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            justify-content: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .subtitle {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: -10px;
+        }
+        #message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: green;
+            display: none;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        img {
+            margin-top: 20px;
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Visual Flow Optimization</h1>
+    <p class="subtitle">Kecen Yin is completing A3a</p>
+    <button onclick="showMessage()">OK</button>
+    <p id="message">你已经完成任务</p>
+    <img src="740eeb4ea94633542fbfb5802c54aca.jpg" alt="User Image">
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
